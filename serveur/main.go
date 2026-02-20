@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// Chemin vers le dossier du portfolio
-	portfolioPath := "../style"
+	portfolioPath := ".."
 
 	// Servir les fichiers statiques
 	fs := http.FileServer(http.Dir(portfolioPath))
